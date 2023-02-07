@@ -1,0 +1,11 @@
+#Task 2.13
+import math;
+print ("Введите число a: ");
+a = float(input());
+if a==0:
+  print("Решений нет");
+if a!=0:
+  print ("Введите число b: ");
+  b = float(input());
+  x = -b/a;
+  print ("x = ", x, sep="")
